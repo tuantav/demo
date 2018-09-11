@@ -1,9 +1,76 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
+  "products": [
+      {
+        "machineId": "cbcc540d-5ae3-4686-81fb-80f4a3d362c4",
+        "group": {
+          "name": "Default",
+          "code": "0000",
+          "id": 1
+        },
+        "name": "Coke",
+        "description": "cocacola",
+        "price": 12.5,
+        "picture": "https://cdn0.wideopeneats.com/wp-content/uploads/2017/08/peanuts-in-coke.png",
+        "quantity": 12,
+        "id": 1
+      },
+      {
+        "machineId": "cbcc540d-5ae3-4686-81fb-80f4a3d362c4",
+        "group": {
+          "name": "Drink",
+          "code": "0001",
+          "id": 2
+        },
+        "name": "Coke",
+        "description": "cocacola",
+        "price": 12.5,
+        "picture": "https://cdn0.wideopeneats.com/wp-content/uploads/2017/08/peanuts-in-coke.png",
+        "quantity": 12,
+        "id": 3
+      },
+      {
+        "machineId": "5222a7eb-d64f-4d2e-bdf3-3d8b36ca6e71",
+        "group": {
+          "name": "Default",
+          "code": "0000",
+          "id": 1
+        },
+        "name": "Pepsi",
+        "description": "Pepsi",
+        "price": 12,
+        "picture": "https://tea-4.lozi.vn/v1/images/resized/pepsi-thai-lan-1511926453-1-4285356-1511926453?w=960&type=s",
+        "quantity": 21,
+        "id": 2
+      },
+      {
+        "machineId": "5222a7eb-d64f-4d2e-bdf3-3d8b36ca6e71",
+        "group": {
+          "name": "Drink",
+          "code": "0001",
+          "id": 2
+        },
+        "name": "Pepsi",
+        "description": "Pepsi",
+        "price": 12,
+        "picture": "https://tea-4.lozi.vn/v1/images/resized/pepsi-thai-lan-1511926453-1-4285356-1511926453?w=960&type=s",
+        "quantity": 21,
+        "id": 4
+      },
+      {
+        "machineId": "5222a7eb-d64f-4d2e-bdf3-3d8b36ca6e71",
+        "group": {
+          "name": "Snack",
+          "code": "0002",
+          "id": 3
+        },
+        "name": "Zizi",
+        "description": "Slack",
+        "price": 2,
+        "picture": "https://cdn4.tgdd.vn/Products/Images/3364/145090/snack-kinh-do-vi-cua-goi-32g-1-700x467.jpg",
+        "quantity": 87,
+        "id": 5
+      }
+    ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
